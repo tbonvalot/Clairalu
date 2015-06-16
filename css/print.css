@@ -1,0 +1,10 @@
+body, #global{background:none}
+#header, #bandeau, #ariane, #lang, #menu, #main_footer, #footer{display:none}
+
+#logo{width:129px;height:129px; background:url(../upload/468.jpg) no-repeat left  top;margin:0 0 0 0}
+
+span.shadow, #btn, #slidetabs{display:none}
+
+.grid_6{float:none;clear:left}
+
+#slideshow{margin-bottom:20px}
