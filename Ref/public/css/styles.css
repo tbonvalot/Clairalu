@@ -1,0 +1,116 @@
+
+/****************************************/
+/***************STRUCTURE****************/
+/****************************************/
+
+body{
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:23px;
+	background:#f5f5f5 url(../images/bg_small.gif) repeat-x left top;	
+}
+
+body#big{
+	background:#f5f5f5 url(../images/bg_big.gif) repeat-x left top;
+} 
+
+#blocPage{
+	position:relative;
+	background:url(../images/bg_global-small.jpg) no-repeat 10px top;
+	min-height:600px
+}
+
+body#big #blocPage{
+	background:url(../images/bg_global-big.jpg) no-repeat  top;
+	position:relative;
+	margin-top: -8px;
+}
+
+span.sh-t{
+	top:125px;
+}
+
+span.sh-b{
+	top:285px;
+	background-position:left bottom
+}
+
+body#big span.sh-b{
+	top:435px;
+	background-position:left bottom
+}
+
+h1{
+	display:none
+}
+
+
+/****************************************/
+/*****************MENU*******************/
+/****************************************/
+
+#menu{
+	list-style:none;
+	float:left;
+	margin-top:380px;
+	position:fixed;
+}
+
+#menu li{
+	float:left;
+	margin-right:5px;
+	position:relative;
+}/*z-index:5*/
+
+#menu li a{
+	width:75px;
+	height:32px;
+	text-align:center;
+	font-weight:bold;
+	font-size:11px;
+	line-height:35px;
+	color:#333;
+	display:block;
+	background:url(../images/menu_bg2.png) no-repeat left top
+}
+
+#menu li a.actif, #menu li a:hover{
+	color:white;
+	background-position:left bottom;
+	text-decoration:none
+}
+
+#menu1{list-style:none;
+	float:right;
+	margin-top:80px;
+	position:relative;
+	z-index:150
+}
+
+#menu1 li{
+	float:left;
+	margin-right:5px;
+	position:relative;
+}/*z-index:5*/
+
+#menu1 li a{
+	width:75px;
+	height:32px;
+	text-align:center;
+	font-weight:bold;
+	font-size:11px;
+	line-height:35px;
+	color:#333;
+	display:block;
+	background:url(../images/menu_bg2.png) no-repeat left top
+}
+
+#menu1 li a.actif, #menu li a:hover{
+	color:white;
+	background-position:left bottom;
+	text-decoration:none
+}
+
+#menu1{
+	margin-top: 102px;
+}
