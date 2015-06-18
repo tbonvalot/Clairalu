@@ -843,7 +843,7 @@ footer .sep {
 
 
 /*  bandeau  */
-#bandeau div.grid_12{height:150px;margin-bottom:0px;}
+#bandeau div.grid_12{ height:150px;margin-bottom:0px;}
 .big #bandeau div.grid_6{height:250px;padding-top:30px;margin-bottom:80px;position:relative;z-index:0;padding-left: }
 .baseline{color:white;font-size:30px;text-shadow:1px 1px 1px #000;line-height:150px}
 .big .baseline{line-height:normal}
