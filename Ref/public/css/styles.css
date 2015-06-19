@@ -17,7 +17,7 @@ body#big{
 #blocPage{
 	position:relative;
 	background:url(../images/bg_global-small.jpg) no-repeat 10px top;
-	min-height:600px
+	min-height:600px;
 }
 
 body#big #blocPage{
@@ -32,16 +32,42 @@ span.sh-t{
 
 span.sh-b{
 	top:285px;
-	background-position:left bottom
+	background-position:left bottom;
 }
 
 body#big span.sh-b{
 	top:435px;
-	background-position:left bottom
+	background-position:left bottom;
 }
 
 h1{
-	display:none
+	display:none;
+}
+
+#logoEntreprise{
+	position: absolute;
+	width: 100px;
+	float: top;
+	top: 20px;
+	left: 290px;
+}
+
+
+#Titre{
+	position: absolute;
+	float: left;
+	top: 200px;
+	left: 200px;
+	color: white;
+}
+
+#Titre h1{
+	display: block;
+	margin-left: 55px;
+}
+
+#Titre h2{
+	display: inline-block;
 }
 
 
@@ -53,7 +79,8 @@ h1{
 	list-style:none;
 	float:left;
 	margin-top:380px;
-	position:fixed;
+	position:relative;
+	left: 100px;
 }
 
 #menu li{
@@ -71,46 +98,43 @@ h1{
 	line-height:35px;
 	color:#333;
 	display:block;
-	background:url(../images/menu_bg2.png) no-repeat left top
+	background:url(../images/menu_bg2.png) no-repeat left top;
 }
 
 #menu li a.actif, #menu li a:hover{
 	color:white;
 	background-position:left bottom;
-	text-decoration:none
+	text-decoration:none;
 }
 
-#menu1{list-style:none;
-	float:right;
-	margin-top:80px;
-	position:relative;
-	z-index:150
-}
-
-#menu1 li{
-	float:left;
-	margin-right:5px;
-	position:relative;
-}/*z-index:5*/
-
-#menu1 li a{
-	width:75px;
-	height:32px;
-	text-align:center;
-	font-weight:bold;
-	font-size:11px;
-	line-height:35px;
-	color:#333;
-	display:block;
-	background:url(../images/menu_bg2.png) no-repeat left top
-}
-
-#menu1 li a.actif, #menu li a:hover{
+#menu li a:hover{
 	color:white;
 	background-position:left bottom;
-	text-decoration:none
+	text-decoration:none;
 }
 
-#menu1{
-	margin-top: 102px;
+
+/****************************************/
+/*****************SLIDER*****************/
+/****************************************/
+
+#slideshow { 
+    margin: 50px auto;
+    float: right;
+    right: 125px;
+    top: 100px;
+    position: relative;
+    width: 280px;
+    height: 195px;
+    border: 0.5rem solid white;
+    box-shadow : 0 0 20px rgba (0,0,0,0.4);  
+}
+
+#slideshow > div { 
+    position: absolute; 
+}
+
+#slideshow img{
+	width: 280px;
+	height: 195px;
 }

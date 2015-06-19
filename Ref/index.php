@@ -2,9 +2,11 @@
 <html> 
 	<head>
 		<meta charset="utf-8"/>
-		<title>Portfolio de Mathieu BOUTER</title>
-		<link rel="shortcut icon" type="image/x-icon" href="public/images/icon.png" />
+		<title>CLAIRALU Tolerie industriel Pesmes</title>
+		<link rel="shortcut icon" type="image/x-icon" href="public/images/logo.jpg" />
 		<link rel="stylesheet" href="public/css/styles.css"/>
+		<script type='text/javascript' src='public/js/jquery-2.1.3.js'></script>
+		<script type='text/javascript' src='public/js/sliderAuto.js'></script>
 	</head>
 
 <!-- CORP DE PAGE -->
@@ -13,7 +15,7 @@
 	</header>
 	<body id="big">
 		<div id="blocPage">
-			<?php include "pages/menu.html"; ?>
+			<?php include "pages/header.html"; ?>
 
 			<div id="frontRight" >
 					<?php
@@ -34,7 +36,8 @@
 			</div>
 
 			<footer>
-
+<!-- PIED DE PAGE -->
+				<?php include "pages/footer.html"; ?>
 			</footer>
 		</div>
 	</body>
