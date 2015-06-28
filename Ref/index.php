@@ -14,29 +14,29 @@
 
 	</header>
 	<body id="big">
-			<?php include "pages/header.html"; ?>
+			<?php include "pages/header.php"; ?>
 
-			<div>
+			<div id="idid" >
 					<?php
 							$p=strtolower ($_GET['p']); //strtolower sert a passer l'url en miniscule
 								if(isset($p) && preg_match("/^[a-z0-9]+$/i",$p)){ //Empeche de pouvoir taper des caracteres autres que a-z et 0-9
-									if (file_exists("pages/$p.html")){
-										include "pages/$p.html";
+									if (file_exists("pages/$p.php")){
+										include "pages/$p.php";
 									}
 									else{
-										include "pages/404.html"; //Sinon affiche la page 404
+										include "pages/404.php"; //Sinon affiche la page 404
 									}
 								}
 
 								else{
-									include "pages/404.html"; //Sinon affiche la page 404
+									include "pages/404.php"; //Sinon affiche la page 404
 								}
 					?>
 			</div>
 
 			<footer>
 <!-- PIED DE PAGE -->
-				<?php include "pages/footer.html"; ?>
+				<?php include "pages/footer.php"; ?>
 			</footer>
 	</body>
 </html>
