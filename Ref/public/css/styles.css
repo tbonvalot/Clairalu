@@ -148,12 +148,18 @@ h1{
 }
 
 /****************************************/
-/*****************CORP*****************/
+/******************CORP******************/
 /****************************************/
 
-body
-{
-	font-family:Arial, Helvetica, sans-serif;
+#corpAccueil{
+	display: block;
+	position: relative;
+	margin-top: -80px;
+}
+
+#headerAccuil{
+	display: block;
+	position: relative;
 }
 
 #blocA1
@@ -161,7 +167,6 @@ body
 	padding:5px;border:1px solid #d5d5d5;
 	background:white;
 	position:absolute;
-	margin-top: 500px;
 	left: 100px;
 	width: 350px;
 }
@@ -170,7 +175,6 @@ body
 	padding:5px;border:1px solid #d5d5d5;
 	background:white;
 	position:absolute;
-	margin-top: 500px;
 	left: 485px;
 	width: 350px;
 }
@@ -179,7 +183,65 @@ body
 	padding:5px;border:1px solid #d5d5d5;
 	background:white;
 	position:absolute;
-	margin-top: 500px;
 	right: 100px;
 	width: 350px;
+}
+
+
+/****************************************/
+/**************PIED DE PAGE**************/
+/****************************************/
+
+#main_footer {
+    background:url(../images/bg_footer.gif) repeat-x left top;
+    height:281px; 
+    margin-top: 350px;
+} 
+
+#footer{
+    padding-top:20px;
+    color:white;
+    position:relative;
+    height:261px; 
+    background:url(../images/footer_bg.jpg) no-repeat left top;
+}
+
+#copyright{
+    position:absolute;
+    line-height:30px;
+    bottom:0
+}
+
+#footer a{
+    color:white
+}
+
+.footer-link a{
+    display:block;
+    color:white; 
+    background:url(../images/footer_limits.png) repeat-x left bottom;
+    width:180px;
+}
+
+#footer a.actif{
+    color:#A40000;
+    font-weight:bold;
+}
+
+#footer a:hover{
+    text-decoration:none;
+    color:#A40000;
+}
+
+#footer-adresse{
+    color:#fff;
+    text-align:right;
+    padding:40px 140px 0 0;
+    width:240px;
+    line-height:22px;
+    margin-left: 175px;
+}
+
+.footer-link ul{
+    margin-top: 40px;
 }
