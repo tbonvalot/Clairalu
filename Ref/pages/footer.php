@@ -11,6 +11,18 @@
           </div>
         
             <div id="footer-adresse" class="grid_5">
+<<<<<<< HEAD
+                <p><strong class="orange font14">CLAIRALU</strong><br />Zone Industrielle BP32<br />70140 Pesmes<br />Tél. : 03 84 31 21 25<br />Fax : 03 54 31 24 50<br />e-mail : <span class="mailme">clair.alu@wanado.fr</p>
+            </div>
+
+            <p class="clear"></p>
+
+
+            <div id="copyright">
+                <p class="grid_6">
+                    &copy; CLAIRALU 2015&nbsp;-&nbsp;
+                    <a href="partenaires.php" rel="nofollow">Partenaires</a>&nbsp;-&nbsp;Création site internet : Bonvalot Thomas
+=======
                 <p><strong class="orange font14">CLAIRALU</strong><br />Zone Industrielle BP32<br />70140 Pesmes<br />Tél. : 03 84 31 21 25<br />Fax : 03 54 31 24 50<br />e-mail : <span class="mailme"> clair.alu@wanado.fr</p>
             </div>
             <p class="clear"></p>
@@ -21,6 +33,7 @@
                 </p>
                 <p class="grid_6 right">
                     <a class="greentic" target="_blank" href="http://www.greentic.net/lyon/creation-site-internet.htm" title="création de site internet à lyon">Création site internet : Bonvalot Thomas</a>
+>>>>>>> origin/master
                 </p>
             <p class="clear"></p>
             </div>

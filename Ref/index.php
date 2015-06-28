@@ -16,7 +16,7 @@
 	<body id="big">
 			<?php include "pages/header.php"; ?>
 
-			<div>
+			<div id="idid" >
 					<?php
 							$p=strtolower ($_GET['p']); //strtolower sert a passer l'url en miniscule
 								if(isset($p) && preg_match("/^[a-z0-9]+$/i",$p)){ //Empeche de pouvoir taper des caracteres autres que a-z et 0-9
