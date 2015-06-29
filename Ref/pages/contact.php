@@ -15,7 +15,6 @@
 				<?php endif; ?>
 
 
-					<article class="article" >
 							<form id="formContact" method="POST" action="envoi.php">
 										<label for="nom">Nom :</label>
 										<input required type="text" name="nom" id="nom"  value=<?= isset($_SESSION['inputs']['nom']) ? $_SESSION['inputs']['nom'] : ""; ?> >
@@ -31,7 +30,7 @@
 
 										<p id="boutonCenterContact" ><button id="boutonContact">Envoyer</button></p>	
 							</form>
-					</article>
+
 				<?php //efface les champs si aucunes erreurs
 					unset($_SESSION['inputs']); 
 					unset($_SESSION['succes']); 

@@ -262,7 +262,8 @@ footer{
 
 
 #formContact{
-    margin: 1rem;
+    width: 56%;
+    margin: auto;
 }
 #formContact textarea{
     min-height: 15rem;
