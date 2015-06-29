@@ -7,6 +7,12 @@
 		<link rel="stylesheet" href="public/css/styles.css"/>
 		<script type='text/javascript' src='public/js/jquery-2.1.3.js'></script>
 		<script type='text/javascript' src='public/js/sliderAuto.js'></script>
+
+			<!--Gallerie Photo Réalisation-->
+		<link rel="stylesheet" href="index_files/vlb_files1/vlightbox1.css" type="text/css" />
+		<link rel="stylesheet" href="index_files/vlb_files1/visuallightbox.css" type="text/css" media="screen" />
+		<script src="index_files/vlb_engine/jquery.min.js" type="text/javascript"></script>
+		<script src="index_files/vlb_engine/visuallightbox.js" type="text/javascript"></script>
 	</head>
 
 <!-- CORP DE PAGE -->
