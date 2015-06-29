@@ -1,3 +1,4 @@
+<div id="corpPage" >
 				<?php
 					session_start();
 				?>
@@ -36,3 +37,4 @@
 					unset($_SESSION['succes']); 
 					unset($_SESSION['errors']);
 				?>
+</div>

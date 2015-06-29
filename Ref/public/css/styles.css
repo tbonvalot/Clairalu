@@ -256,14 +256,16 @@ footer{
 }
 
 
-
+#corpPage{
+	width: 56%;
+	margin: auto;
+}
 
 
 
 
 #formContact{
-    width: 56%;
-    margin: auto;
+
 }
 #formContact textarea{
     min-height: 15rem;
