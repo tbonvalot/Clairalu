@@ -18,13 +18,23 @@ body#big{
 #blocPage{
 	position:relative;
 	background:url(../images/bg_global-small.jpg) no-repeat 10px top;
-	min-height:600px;
+	min-height: 510px;
 }
 
 body#big #blocPage{
 	background:url(../images/bg_global-big.jpg) no-repeat  top;
 	position:relative;
 	margin-top: -8px;
+}
+
+#corpAccueil{
+	display: block;
+	position: relative;
+}
+
+#headerAccuil{
+	display: block;
+	position: relative;
 }
 
 span.sh-t{
@@ -151,17 +161,6 @@ h1{
 /****************************************/
 /******************CORP******************/
 /****************************************/
-
-#corpAccueil{
-	display: block;
-	position: relative;
-	margin-top: -80px;
-}
-
-#headerAccuil{
-	display: block;
-	position: relative;
-}
 
 #blocA1
 {
