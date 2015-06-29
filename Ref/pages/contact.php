@@ -1,4 +1,4 @@
-<div id="corpPage" >
+<div class="corpPage" >
 				<?php
 					session_start();
 				?>

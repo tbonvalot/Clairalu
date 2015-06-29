@@ -1,4 +1,4 @@
-<div id="corpPage" >
+<div class="corpPage" >
 	<p id="textP"><h2>Présentation de l’entreprise CLAIRALU</h2>
 	<div id="picture">
 			<img src="public/images/logo.png" alt="Entreprise Clairalu">
