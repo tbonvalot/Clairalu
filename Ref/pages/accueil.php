@@ -18,10 +18,10 @@
         <p>Nos machines</p>
             <ul>
                 <li>Une ligne de poiçonnage automatique EMZ.</li>
-                <li>Deux poiçonneuse à commande numérique EUROPE.</li>
-                <li>Trois plieuse de 4 mètres de 160 à 170 tonnes.</li>
+                <li>Deux poiçonneuses à commande numérique EUROPE.</li>
+                <li>Trois plieuses de 4 mètres de 160 à 170 tonnes.</li>
                 <li>Une plieuse de 2,5 mètres de 80 tonnes.</li>
-                <li>Deux ciseiilles de 4 mètres.</li>
+                <li>Deux cisailles de 4 mètres.</li>
                 <li>Soudure TIG et MIG.</li>
             </ul>
         <p><a href="index.php?p=machines">En savoir plus</a></p>
