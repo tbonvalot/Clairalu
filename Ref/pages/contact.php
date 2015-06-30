@@ -17,10 +17,16 @@
 
 
 							<form id="formContact" method="POST" action="envoi.php">
+										<label for="nom">Nom de la société :</label>
+										<input required type="text" name="nomS" id="nomS"  value=<?= isset($_SESSION['inputs']['nomS']) ? $_SESSION['inputs']['nomS'] : ""; ?> >
+
 										<label for="nom">Nom :</label>
 										<input required type="text" name="nom" id="nom"  value=<?= isset($_SESSION['inputs']['nom']) ? $_SESSION['inputs']['nom'] : ""; ?> >
 
 										<label for="prenom" >Prénom :</label><input required type="text" name="prenom" id="prenom" value=<?= isset($_SESSION['inputs']['prenom']) ? $_SESSION['inputs']['prenom'] : ""; ?> >
+
+										<label for="nom">Fixe/Portable :</label>
+										<input required type="numeros" name="fp" id="fp"  value=<?= isset($_SESSION['inputs']['fp']) ? $_SESSION['inputs']['fp'] : ""; ?> >
 
 										<label for="mail" >Email :</label>
 										<input required type="email" name="mail" id="mail" type="email" value=<?= isset($_SESSION['inputs']['mail']) ? $_SESSION['inputs']['mail'] : ""; ?> >

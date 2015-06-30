@@ -345,5 +345,7 @@ footer{
     background-color: rgba(2, 141, 46, 0.7);
 }
 
-
-
+#picture
+{
+	position: relative;
+	margin-right:-5px;

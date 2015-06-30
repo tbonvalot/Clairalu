@@ -3,7 +3,7 @@
             <div class="footer-link grid_4">
                 <ul>
                     <li><a href="./" class="actif" onclick="return false;">CLAIRALU</a></li>
-                    <li><a href="zinguerie-tolerie-lyon.html">Présentaion</a></li>
+                    <li><a href="zinguerie-tolerie-lyon.html">Présentation</a></li>
                     <li><a href="tolerie-zinguerie-lyon-rhone.html">Machines</a><a href="zinguerie-tolerie-lyon.html"></a></li>
                     <li><a href="produits-facades-toitures-metalliques-lyon.html">Réalisations</a></li>
                     <li><a href="contact-zinguerie-tolerie-vaulx-en-velin.html">Contact</a></li>
@@ -11,7 +11,7 @@
           </div>
         
             <div id="footer-adresse" class="grid_5">
-                <p><strong class="orange font14">CLAIRALU</strong><br />Zone Industrielle BP32<br />70140 Pesmes<br />Tél. : 03 84 31 21 25<br />Fax : 03 54 31 24 50<br />e-mail : <span class="mailme">clair.alu@wanado.fr</p>
+                <p><strong class="orange font14">CLAIRALU</strong><br />Zone Industrielle BP32<br />70140 Pesmes<br />Tél. : 03 84 31 21 25<br />Fax : 03 84 31 24 50<br />e-mail : <span class="mailme">clair.alu@wanadoo.fr</p>
             </div>
 
             <p class="clear"></p>
